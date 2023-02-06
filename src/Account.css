@@ -1,0 +1,21 @@
+.account {
+    background-color: yellow;
+    grid-area: account;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-cart, .btn-not, .btn-log {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    padding: 5px;
+}
+
+.btn-cart:hover, .btn-not:hover, .btn-log:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
