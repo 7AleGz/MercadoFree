@@ -9,10 +9,12 @@
 }
 
 .btn-cart, .btn-not, .btn-log {
+    display: flex;
+    align-items: center;
     width: fit-content;
     height: fit-content;
     border: none;
-    padding: 5px;
+    padding: 7px;
 }
 
 .btn-cart:hover, .btn-not:hover, .btn-log:hover {
