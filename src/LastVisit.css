@@ -8,7 +8,7 @@ h2 {
     text-align: center;
 }
 
-.container {
+.container__lv {
     background: #1e1e1e;
     width: 100%;
     height: 23em;
@@ -20,26 +20,44 @@ h2 {
     flex-direction: row;
 }
 
-.item1 {
+.item1__lv {
     width: 19em;
     margin-right: 20px;
     height: 23em;
-    background-color: aqua;
+    background-color: black;
 }
-.item2 {
+.item2__lv {
     width: 19em;
     margin-right: 20px;
     height: 23em;
     background-color: red;
 }
-.item3 {
+.item3__lv {
     width: 19em;
     margin-right: 20px;
     height: 23em;
     background-color: green;
 }
-.item4 {
+.item4__lv {
     width: 19em;
     height: 23em;
     background-color: blue;
+}
+
+/* ----------------- */
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    width: 100%;
+    height: 60%;
+    background: #000;
+}
+
+.info {
+    color: #1e1e1e;
+    padding: 15px 0 0 0;
 }
