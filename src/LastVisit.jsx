@@ -8,7 +8,9 @@ const LastVisit = () => {
     <div className='container__lv'>
       <div className="item1__lv">
         <div className="card">
-          <div className="cover"></div>
+          <div className="cover">
+            {/* <img src="D:\Projects\mercado-free\src\banners\BUG-banner-dic-01.jpg" alt="" /> */}
+          </div>
           <div className="info">
             <h5>Ford Focus III 2.0 Se</h5>
             <p>2019 | 51.000km</p>

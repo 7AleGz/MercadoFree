@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Head from './Head';
 import Home from './Home';
 import { Footer } from './Footer';
+import Consulta from './Consulta';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Head />
     <Home />
     <Footer />
+    <Consulta />
   </React.StrictMode>
 );
 

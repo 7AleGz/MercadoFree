@@ -5,10 +5,10 @@ export const AboutUs = () => {
     <div>
         <div className="info">
             <h3>About us</h3>
-            <p>What is Free Market?</p>
-            <p>Online help center</p>
-            <p>Product return policies</p>
-            <p>Terms and Conditions</p>
+            <a href=""><p>What is Free Market?</p></a>
+            <a href=""><p>Online help center</p></a>
+            <a href=""><p>Product return policies</p></a>
+            <a href=""><p>Terms and Conditions</p></a>
         </div>
     </div>
   )

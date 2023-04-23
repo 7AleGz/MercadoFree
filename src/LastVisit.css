@@ -15,8 +15,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-wrap: nowrap;
     align-items: center;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 
@@ -60,4 +60,21 @@ h2 {
 .info {
     color: #1e1e1e;
     padding: 15px 0 0 0;
+}
+
+.item1__lv:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.item2__lv:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.item3__lv:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.item4__lv:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
 }
