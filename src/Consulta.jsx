@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"; // http://www.etr.gov.ar/style/js/acciones.js - ajax/cuandollega/getSmsResponseEfisat.php
 
 function App() {
   const [data, setData] = useState([]);
